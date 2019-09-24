@@ -1,0 +1,17 @@
+fos_rest:
+#    body_listener: true
+    disable_csrf_role: ROLE_API
+    view:
+        view_response_listener: 'force'
+        formats:
+            xml: false
+            json: true
+        templating_formats:
+            html: false
+            json: false
+        mime_types:
+            json: ['application/json', 'application/json;version=1.0', 'application/json;version=1.1']
+    format_listener:
+        enabled: true
+        rules:
+            - { path: '^/', priorities: [ 'json' ], fallback_format: 'json' }
