@@ -149,6 +149,12 @@
             "config/packages/prod/jms_serializer.yaml"
         ]
     },
+    "lankerd/groundwork-bundle": {
+        "version": "dev-singularity-login-fix"
+    },
+    "league/csv": {
+        "version": "9.5.0"
+    },
     "nelmio/cors-bundle": {
         "version": "1.5",
         "recipe": {
@@ -169,6 +175,9 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.2.3"
+    },
+    "php": {
+        "version": "7.3"
     },
     "predis/predis": {
         "version": "v1.1.1"

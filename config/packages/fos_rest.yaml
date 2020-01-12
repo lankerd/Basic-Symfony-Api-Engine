@@ -1,6 +1,6 @@
 fos_rest:
 #    body_listener: true
-    disable_csrf_role: ROLE_API
+#    disable_csrf_role: ROLE_API
     view:
         view_response_listener: 'force'
         formats:
